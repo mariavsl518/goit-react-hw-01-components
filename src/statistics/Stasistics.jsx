@@ -4,11 +4,11 @@ import './Statistics.css'
 const Statistics = ({title='', stats}) => {
   return (
     <section className="statistics">
-        <h2 className="title">{title}</h2>
+        <h2 className="title" key={stats.id}>{title}</h2>
         <ul className="stat-list">
           {stats.map(st => 
             (
-              <li class="item">
+              <li className="item">
                 <span className="label">{st.label}</span>
                 <span className="percentage">{st.percentage}</span>
               </li>
