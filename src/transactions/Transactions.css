@@ -1,8 +1,9 @@
 .transaction-history{
-    width: 100%;
+    width: 1000px;
     font-size: 30px;
     border: 1px solid grey;
     text-align: center;
+    margin: 0 auto;
 }
 
 thead {
