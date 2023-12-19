@@ -1,4 +1,4 @@
-.friend-item{
+.item{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -7,6 +7,11 @@
     border: 1px solid grey;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 30px;
+}
+.avatar{
+    width: 150px;
+    margin-right: 50px;
 }
 
 .status {
@@ -14,9 +19,4 @@
     height: 20px;
     border-radius: 50%;
     margin: 15px;
-}
-
-.friend-avatar{
-    width: 150px;
-    margin-right: 50px;
 }
